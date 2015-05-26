@@ -75,6 +75,32 @@
 }
 
 
+/***** Pagination **********/
+
+.pagination li a {
+  color: black;
+}
+
+.pagination li a {
+  color: black;
+}
+
+.pagination .active span{
+  background-color: #FCAC45;
+}
+
+.pagination .active span{
+  background-color: #FCAC45;
+}
+
+.pagination .active span:hover{
+  background-color: #FCAC45;
+}
+.pagination  li a:hover{
+  color: #FCAC45;
+}
+
+
 /********************************************************/
 /* End */
 /********************************************************/
@@ -89,6 +115,11 @@
   padding-top:  60px;
 }
 
+#enterprises_show hr{
+  border-color: #fcac45;
+  border-width: 1px;
+  width: 800px;
+}
 #enterprises_show .section-title{
   text-align: center;
 }
