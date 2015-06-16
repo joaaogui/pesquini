@@ -16,7 +16,7 @@ class EnterprisesController < ApplicationController
     @sanctions = @collection.paginate(:page => params[:page], :per_page => 10)
     @position = enterprise_position(@enterprise)
     @p_collection = Payment.where(enterprise_id: @enterprise.id)
-    @payments = @p_collection.paginate(:page => params[:page], :per_page => 10)
+    @payments = @p_collection.paginate(:page => params[:page], :per_page => 1)
   end
 
   def enterprise_position(enterprise)
